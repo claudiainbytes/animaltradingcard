@@ -1,0 +1,60 @@
+body{
+	margin: 0px;
+	padding: 25px;
+}
+
+.card{
+	width: 300px;
+	padding: 15px;
+	border: 1px solid #26A0DA;
+	border-radius: 8px;
+	color: #ffffff;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	/* Box shadow */
+	-webkit-box-shadow: 10px 10px 20px 0px rgba(194,192,194,1);
+	-moz-box-shadow: 10px 10px 20px 0px rgba(194,192,194,1);
+	box-shadow: 10px 10px 20px 0px rgba(194,192,194,1);
+	/* Background shadow */
+	background: #26a0da;  
+	background: -webkit-linear-gradient(to bottom, #26a0da, #314755);  
+	background: linear-gradient(to bottom, #26a0da, #314755);	 
+}
+
+.card h3{
+	color: #d7ff7d;
+	font-family: 'Trebuchet MS', serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0px 0px 10px 0px;
+}
+
+.card img, .card .info{
+	border: 1px solid #48afb6;
+	width: 300px;
+	margin: 0px 0px 10px 0px;
+}
+
+.card img{
+	background-image: url(placeholder.png); 
+	height: 200px;
+}
+
+.card .info p{
+	padding: 0px 10px;
+}
+
+.card .info p:first-child{
+	font-style: italic; 
+}
+
+.card .info ul{
+	font-size: 15px;
+	font-weight: lighter;
+	padding: 0px 10px;
+	list-style-type: none;
+}
+
+.card .info li > span{
+	font-weight: bold;
+	color: #7fffd4;
+}	
